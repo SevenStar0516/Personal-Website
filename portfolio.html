@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio_styles.css">
+    <!-- source from: https://www.w3schools.com/howto/howto_css_profile_card.asp -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <ul class="top-nav" id="top">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./process.html">Process</a></li>
+        </ul>
+        <ul class="secondary-nav">
+            <li><a href="#top">Top</a></li>
+            <li><a href="#section1">Photographic<br>Gallery</a></li>
+            <li><a href="#section2">Video</a></li>
+            <li><a href="#section3">Activities<br>of<br>Interest</a></li>
+            <li><a href="#footer">Footer</a></li>
+        </ul>
+    </header>
+
+    <div class="h1-background">
+         <h1>Portfolio</h1>
+    </div>
+
+    <div id="section1">
+        <h2><u>Photographic Gallery</u></h2>
+        <!-- Content of Section 1 -->
+        <div class="photos">
+            <div class="photo">
+                <img src="./Image/portfolio1.jpg" alt="Portfolio Photo">
+            </div>
+
+            <div class="photo">
+                <img src="./Image/portfolio2.jpg" alt="Portfolio Photo">
+            </div>
+
+            <div class="photo">
+                <img src="./Image/portfolio3.jpg" alt="Portfolio Photo">
+            </div>
+
+            <div class="photo">
+                <img src="./Image/portfolio4.jpg" alt="Portfolio Photo">
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <h2><u>Video</u></h2>
+        <!-- Content of Section 2 -->
+        <div class="videos">
+            <div class="video">
+            <iframe width="531" height="315" src="https://www.youtube.com/embed/dIFB1g-iD7Q?si=NtTgf1hmNVMhqlvt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="video">
+                <iframe width="531" height="315" src="https://www.youtube.com/embed/ek92_VLrbJc?si=syC4Vpl2CS5_o-me" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="videos">
+            <div class="video">
+                <iframe width="531" height="315" src="https://www.youtube.com/embed/ZtfEDR48c4Q?si=QB68TnZ2HFjAq49M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div id="section3">
+        <h2><u>Activities of Interest</u></h2>
+        <!-- Content of Section 3 -->
+        <ul class="list">
+            <li>Cooking: I cook with my roommate every day, and I find the process and result of cooking very satisfying.</li>
+            <li>Games: I have a strong interest in many types of games, including 3D, multiplayer competitive and horror games. I often play them with my friends or family on weekends.</li>
+            <li>Badminton: During the summer vacation, I often invite my friends to play badminton together, which not only enjoys the fun of sports but also promotes friendship.</li>
+            <li>Traveling: During holidays, I usually plan to travel to different cities and countries with my friends to explore their cultural and folk features.</li>
+        </ul>
+    </div>
+    <br><br><br><br>
+    <hr>
+    <footer class="footer" id="footer">
+        <div class="contact">
+            <p>Contacts</p>
+          <a href="https://twitter.com/MrFearlessAsian"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/sean-fei-fcx/"><i class="fa fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/sean_the_asian_guy/"><i class="fa fa-instagram"></i></a>
+        </div>
+
+         <div class="address">
+            <p>My Address</p>
+             <p>L5C 3M7</p>
+        </div>
+
+        <div class="subscribe">
+            <p>Subscribe to my website for latest info!</p>
+            <form>
+                <label for="email" style="font-size: 30px; color: white;">email:</label>
+                <input type="text" id="email" name="email"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

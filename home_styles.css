@@ -1,0 +1,57 @@
+#section1, #section2{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.bio-contents {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
+
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin-left: 10px;
+}
+
+.nav-photos {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.nav-photo {
+    width: 20%;
+}
+
+.nav-photo img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.section2-text{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section2-text a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Times New Romance", Times, serif;
+}
+
+h2 {
+    color: white;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    font-family: "Times New Romance", Times, "sans-serif";
+    font-size: 25px;
+}

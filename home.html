@@ -1,0 +1,104 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="home_styles.css">
+        <!-- source from: https://www.w3schools.com/howto/howto_css_profile_card.asp -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <ul class="top-nav" id="top">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./process.html">Process</a></li>
+            </ul>
+
+            <ul class="secondary-nav">
+                <li><a href="#top">Top</a></li>
+                <li><a href="#section1">Biography</a></li>
+                <li><a href="#section2">Navigation</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </header>
+
+        <div class="h1-background">
+            <h1>Home</h1>
+        </div>
+
+        <div id="section1" class="bio-section">
+            <h2><u>Biography</u></h2>
+            <div class="bio-contents">
+                    <!-- Content of Section 1 -->
+                <p>Hello, I am Sean Fei! I was born in Canada and spent a significant part of my early years in China, where I
+                    moved when I was just a few months old. Currently, I am a 2nd-year student in CCIT (Communication, Culture,
+                    Information & Technology) and TCS (Technology, Culture, and Society) at the University of Toronto
+                    Mississauga.
+                </p>
+                <img src="./Image/profile.jpg" alt="Profile Picture" class="profile-img">
+            </div>
+        </div>
+
+        <div id="section2">
+            <h2><u>Navigation</u></h2>
+            <div class="nav-photos">
+                <div class="nav-photo">
+                    <a href="./portfolio.html">
+                        <img src="./Image/photo1.jpg" alt="Portfolio Photo">
+                    </a>
+                    <div class="section2-text"><a href="./portfolio.html">Portfolio</a></div>
+                </div>
+                <div class="nav-photo">
+                    <a href="./resume.html">
+                        <img src="./Image/photo2.jpg" alt="Resume Photo">
+                    </a>
+                    <div class="section2-text"><a href="./resume.html">Resume</a></div>
+                </div>
+                <div class="nav-photo">
+                    <a href="./contact.html">
+                        <img src="./Image/photo3.jpg" alt="Contact Photo">
+                    </a>
+                    <div class="section2-text"><a href="./contact.html">Contact</a></div>
+                </div>
+                <div class="nav-photo">
+                     <a href="./process.html">
+                        <img src="./Image/photo4.jpg" alt="Process Photo">
+                    </a>
+                    <div class="section2-text"><a href="./process.html">Process</a></div>
+                </div>
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <hr>
+
+        <footer class="footer" id="footer">
+            <div class="contact">
+                <p>Contacts</p>
+              <a href="https://twitter.com/MrFearlessAsian"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/sean-fei-fcx/"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/sean_the_asian_guy/"><i class="fa fa-instagram"></i></a>
+            </div>
+
+             <div class="address">
+                <p>My Address</p>
+                 <p>L5C 3M7</p>
+            </div>
+
+            <div class="subscribe">
+                <p>Subscribe to my website for latest info!</p>
+                <form>
+                    <label for="email" style="font-size: 30px; color: white;">email:</label>
+                    <input type="text" id="email" name="email"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </footer>
+
+    </body>
+    </html>

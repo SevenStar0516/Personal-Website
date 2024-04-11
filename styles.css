@@ -1,0 +1,115 @@
+body {
+    background-image: url('./Image/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top-nav {
+    background-color: #333;
+}
+
+.top-nav li {
+    display: inline-block;
+}
+
+.top-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.secondary-nav {
+    position: fixed;
+    top: 10%;
+    left: 0;
+    border: 2px solid #333;
+}
+
+.secondary-nav li {
+    display: block;
+    border: 2px solid #333;
+    background-color: grey;
+    padding: 10px;
+}
+
+.secondary-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+
+.top-nav li a:hover {
+    background-color: green;
+}
+
+.h1-background{
+    background: white
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive;
+    color: black;
+    text-align: center;
+    font-size: 70px;
+}
+
+.footer {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+}
+
+.contact {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+}
+
+.contact p {
+    font-size: 30px;
+}
+
+.subscribe {
+    float: right;
+    text-align: center;
+    width: 33%;
+}
+
+.subscribe p{
+    font-size: 30px;
+}
+
+.address {
+    float: right;
+    width: 33%;
+    text-align: center;
+}
+
+
+.address p{
+    font-size: 30px;
+}

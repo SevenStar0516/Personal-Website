@@ -1,0 +1,64 @@
+#section1, #section2, #section3, #section4, #section5, #WCAG {
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white;
+}
+
+h2 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 40px;
+}
+
+h3 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+
+.card {
+    opacity: 0.8;
+    border: 5px solid darkgrey;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 25px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.list {
+    text-align: left;
+    color: black;
+    list-style-type: disc;
+    padding-top: 10px;
+}
+
+.list li {
+    margin-left: 150px;
+    font-family: "Times New Romance", Times, serif;
+}
+
+p{
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Times New Romance", Times, serif;
+}
+
+#section4 p{
+    color: cyan;
+    margin-top: 10px;
+}
+
+#section5 p{
+    color: cyan;
+    margin-top: 10px;
+}
+
+.footer p {
+    color: white;
+    }
